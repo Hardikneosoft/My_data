@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <!-- <h2>Get eliment by name example</h2>
+    Gender :<input type="radio" name="r1" value="male" />Male
+    <input type="radio" name="r1" value="Female" />Female<br />
+    <button id="btn">Click Here</button>
+    <Script>
+        var btn = document.getElementById("btn");
+        btn.addEventListener("click", function (){
+            var gender = document.getElementsByName("r1"); gender.forEach(function (data) {
+
+            if (data.checked) {
+
+                alert(data.value);
+            } -->
+    <h2> Create Element Example</h2>
+    <ul id="menu"></ul> <button id="btn">Click Here</button>
+
+    <script>
+        var btn=document.getElementById("btn");
+        btn.addEventListener("click",function(){
+            var menus=["mens","womens","kids"];
+            menus.forEach(function(val){
+                var li=document.createEliment("li");
+                li.innerHtml=val;
+                document.getElementById("menu").appendChild(li)
+            })
+        })
+
+        
+    </Script>
+</body>
+
+</html>
