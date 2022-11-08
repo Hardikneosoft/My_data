@@ -1,0 +1,22 @@
+#first {
+    background-color: azure;
+
+
+}
+
+#second {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#third {
+    width: 100px;
+    height: 100px;
+    /* padding: 60px; */
+    background-color: aqua;
+    background-image: url(./laptop.jpg);
+    
+}
+.class{
+    background-color: antiquewhite;
+}

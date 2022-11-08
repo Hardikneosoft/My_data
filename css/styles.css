@@ -1,0 +1,166 @@
+* {
+    margin: 0px auto;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    
+}
+
+#main {
+    width: 1000px;
+    background: gainsboro;
+    border: 1px solid black;
+}   
+
+#header h1 {
+    padding: 30px 0 0 30px;
+    text-align: center;
+
+}
+
+#menu {
+    width: 1000px;
+    background: red;
+    text-align: center;
+
+
+
+
+}
+
+#menu ul {
+    margin: 20;
+    padding: 200;
+    width: 600px;
+    text-align: center;
+}
+
+#menu ul li {
+    display: inline-block;
+    text-align: center;
+    flex: 100px ;
+    border: black;
+}
+
+ul li :hover {
+    background-color: blue;
+}
+
+#section{
+    display: flex;
+}
+#content{
+    flex: 800px;
+    min-height: 400px;
+    padding: 15px;
+    background-color: lightcoral;
+    float: left;
+    box-sizing: border-box;
+
+}
+#sidebar {
+    flex:200px ;
+    min-height: 400px;
+    background-color: azure;
+    float: right;
+    box-sizing: border-box;
+    
+}
+#footer  {
+    padding: 5px 10px;
+    height: 50px;
+    text-align: center;
+    background-color: gray;
+
+}
+@media screen  and (max-width:1020px) {
+    #header{
+        color: blue;
+        text-align: center;
+    } 
+    #main{
+        width: auto;
+    }
+    #menu ul li {
+        padding: 10px 10px;
+    }
+    #content{
+        width: 100%;
+    
+    }
+    #sidebar{
+        width: 100%;
+        min-height: 100px;
+        padding: 10px;
+        flex: 200px;
+    }
+    
+    
+}
+@media screen  and (max-width:810px) {
+    #header{
+        color:red;
+        
+
+    } 
+
+    
+    
+    
+    #main{
+        width: 100%;
+    }
+    #menu ul li {
+        padding: 5px 5px;
+    }
+    #content{
+        width: 100%;
+    
+    }
+    #sidebar{
+        width: 100%;
+        min-height: 100px;
+        padding: 10px;
+        flex: 200px;
+    }
+    
+}@media screen and (max-width:510px) {
+    #section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #menu{
+        width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    #header{
+        color: green;
+        text-align: center;
+    } 
+    
+    
+    
+    #main{
+        width: auto;
+    }
+    #menu ul li {
+        padding: 5px 5px;
+    }
+    #content{
+        width: 100%;
+    
+    }
+    #sidebar{
+        width: 100%;
+        min-height: 100px;
+        padding: 10px;
+        flex: 200px;
+    }
+    
+
+
+}
