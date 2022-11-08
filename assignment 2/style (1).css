@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline;
+    color: white;
+}
+
+.heading {
+    font-size: 200%;
+    padding-left: 50px;
+    padding-right: 18px;
+}
+
+.nav {
+    /* border: 1px solid red; */
+    padding: 7px 0 7px 0;
+    background: rgb(58, 52, 52);
+}
+
+.nvright1 {
+    /* border: 1px solid green; */
+    float: right;
+    font-size: larger;
+    padding: 8px 8px 10px 8px;
+}
+
+.nvright1:hover {
+    background: rgb(100, 88, 88);
+}
+
+.banner {
+    filter: blur(1.3px);
+    position: absolute;
+    z-index: -1;
+}
+
+.maintext {
+    text-align: center;
+    color: white;
+    padding: 0 30% 0 30%;
+}
+
+.maxtext {
+    padding-top: 5%;
+}
+
+.minitext {
+    padding-top: 5%;
+}
+
+.greenBtn {
+    background: rgb(28, 230, 28);
+    width: 17%;
+    height: 40px;
+    margin: 10% 0 0 34%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blueBtn {
+    background: rgb(37, 109, 204);
+    width: 10%;
+    height: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex3 {
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid rgb(0, 0, 0); */
+    height: 480px;
+}
+
+.card1 {
+    border: 1px solid rgb(231, 229, 229);
+    height: 60%;
+    margin: 5% 0 0 5%;
+    padding: 2% 2% 2% 2%;
+}
+
+.card2 {
+    border: 1px solid rgb(231, 229, 229);
+    height: 60%;
+    margin: 5% 0 0 0;
+    padding: 2% 2% 2% 2%;
+}
+
+.card3 {
+    border: 1px solid rgb(231, 229, 229);
+    height: 60%;
+    margin: 5% 5% 0 0;
+    padding: 2% 2% 2% 2%;
+}
+
+.f1 {
+    margin-top: 2%;
+}
+
+.title1 {
+    /* border: 1px solid rgb(88, 112, 0); */
+    width: 60%;
+    float: right;
+    margin-right: 24%;
+    margin-top: 2%;
+}
+
+.subtitle {
+    font-size: small;
+}
+
+.data {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.data1 {
+    /* border: 1px solid red; */
+    margin: 5% 0 0 5%;
+    margin-bottom: 51px;
+    /* padding-right: 170px; */
+}
+
+.data2 {
+    /* border: 1px solid red; */
+    margin: 5% 0 0 0;
+    margin-bottom: 51px;
+    /* margin-right: 75px; */
+    padding-right: 50px;
+}
+
+.data3 {
+    /* border: 1px solid red; */
+    margin: 5% 0 0 0;
+    margin-right: 75px;
+    margin-bottom: 51px;
+    padding-right: 20px;
+}
+
+.dataimg1 {
+    border-radius: 55px;
+    /* position: absolute */
+}
+
+.di1 {
+    float: right;
+    margin: 15px 0 0 15px;
+}
+
+.di2 {
+    float: right;
+    /* border: 1px solid ; */
+    margin: 9px 0 0 9px;
+}
+
+.di3 {
+    float: right;
+    /* border: 1px solid ; */
+    margin: 15px 0 0 15px;
+}
+
+.logos {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    padding-top: 25px;
+    margin-top: 15px;
+}
+
+.log {
+    /* border: 1px solid; */
+}
+
+.logo1 {
+    /* padding: 65px 0 0 55px; */
+    font-family: 'Tangerine', cursive;
+    padding-top: 25px;
+}
+
+.logo2 {
+    font-family: 'Tangerine', cursive;
+    padding-top: 25px;
+}
+
+/* .logo3 {
+    font-family: 'Titan One', cursive;
+} */
+
+.footer {
+    height: 270px;
+    text-align: center;
+    color: white;
+    background: rgb(49, 46, 46);
+}
+
+.cpyri8 {
+    padding-top: 30px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width:1020px) {
+    .nav {
+        color: blueviolet;
+        text-align: center;
+    }
+
+    .heading {
+        color: black;
+        background-color: red;
+        text-align: center;
+    }
+
+    .subtitle {
+        color: aqua;
+        background-color: brown;
+    }
+
+    .footer {
+        color: blue;
+        background-color: beige;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:810px) {
+    .nav {
+        color: rgb(220, 215, 224);
+        text-align: center;
+    }
+
+    .heading {
+        color: rgb(202, 62, 62);
+        background-color: rgb(68, 26, 134);
+        text-align: center;
+    }
+
+    .subtitle {
+        color: rgb(54, 110, 110);
+        background-color: rgb(24, 15, 15);
+    }
+
+     .footer {
+        color: rgb(156, 156, 160);
+        background-color: rgb(65, 65, 7);
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .nav {
+        color: rgb(138, 85, 180);
+        text-align: center;
+    }
+
+    .heading {
+        color: rgb(54, 22, 22);
+        background-color: rgb(44, 32, 63);
+        text-align: center;
+    }
+
+    .subtitle {
+        color: rgb(39, 61, 61);
+        background-color: rgb(163, 22, 22);
+    }
+
+    .footer {
+        color: rgb(32, 32, 68);
+        background-color: rgb(105, 105, 43);
+        text-align: center;
+    }
+}
